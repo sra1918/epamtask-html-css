@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    background: url(https://images.all-free-download.com/images/graphiclarge/sunset_sea_beach_221767.jpg);
+    background-size: cover;
+    font-family: serif;
+
+}
+
+.loginbox{
+    width: 360px;
+    height: 500px;
+    background:rgb(0, 0, 0);
+    color: rgb(243, 236, 236);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.loginbox h2{
+    padding:0 0 20px;
+    text-align: center;
+}
+.loginbox h4{
+    padding: 0 10px;
+}
+.loginbox input{
+    width: 70%;
+    margin-bottom: 2px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(245, 234, 234);
+    outline: none;
+    background: transparent;
+    height: 30px;
+    color: #ffffff;
+}
+.loginbox input[type="submit"]
+{
+    background-color: rgb(255, 245, 245);
+    border-radius: 20px;
+}
+
+
